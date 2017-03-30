@@ -4,7 +4,7 @@ FROM acdaic4v/ubuntu-perl-base:v20170317
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Perl Modules for Redis
-RUN cpanm Net::RabbitMQ
+RUN cpanm --force Net::RabbitMQ
 # Cleanup CPAN- Directory
 RUN rm -rf .cpanm
 
