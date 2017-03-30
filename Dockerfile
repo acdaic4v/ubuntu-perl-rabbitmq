@@ -7,3 +7,4 @@ MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 RUN cpanm Net::RabbitMQ
 # Cleanup CPAN- Directory
 RUN rm -rf .cpanm
+
